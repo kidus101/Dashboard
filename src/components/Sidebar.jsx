@@ -50,10 +50,12 @@ const Sidebar = () => {
 
       {/* Bottom Icons */}
         <div className='fixed bottom-4 left-3 sm:left-6 '>
-          <ArrowUpIcon 
-            width={40}
-            className='bg-gray-600 p-2 rounded-lg mb-4 text-gray-300'
-          />
+          <a href="" id='#top'>
+            <ArrowUpIcon 
+              width={40}
+              className='bg-gray-600 p-2 rounded-lg mb-4 text-gray-300'
+            />
+          </a>
           <ExternalLinkIcon 
             width={40}
             className='bg-gray-600 p-2 rounded-lg mb-4 text-gray-300'
