@@ -1,11 +1,14 @@
-// import './App.css'
+import Sidebar from "../src/components/Sidebar"
 
 function App() {
 
   return (
-    <div className="font-md">
-      Hi
-    </div>
+    <main className="flex">
+      <Sidebar/>
+      <div>
+        Compometn
+      </div>
+    </main>
   )
 }
 
