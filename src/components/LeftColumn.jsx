@@ -14,7 +14,8 @@ const LeftColumn = () => {
 
       <div className='flex-auto w-full'>
         <AreaChartComponent/>
-       </div>
+        <TableComponent/>        
+      </div>
 
     </div>
   )

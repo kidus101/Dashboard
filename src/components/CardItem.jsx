@@ -8,8 +8,8 @@ const CardItem = () => {
               <Text>Sales</Text>  
               <BadgeDelta deltaType='moderateIncrease'> </BadgeDelta>
         </Flex>
-
-    <Metric>$ 34,743</Metric>
+        
+        <Metric>$ 34,743</Metric>
   </Card>
   )
 }
