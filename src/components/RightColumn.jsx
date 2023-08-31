@@ -1,8 +1,16 @@
 import React from 'react'
+import SalesItem from './SalesItem'
+import WebAnalyticsComponent from "./WebAnalyticsComponent"
+import ScoreListComponent from "./ScoreListComponent"
 
 const RightColumn = () => {
   return (
-    <div>RightColumn</div>
+    <div>
+      <SalesItem/>
+      <WebAnalyticsComponent/>
+      <ScoreListComponent/>
+
+    </div>
   )
 }
 
